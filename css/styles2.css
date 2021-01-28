@@ -1,0 +1,304 @@
+.container {
+  display: block;
+  height: 1238px;
+}
+.header {
+  height: 65px;
+  background-color: #004a80;
+}
+.header-container {
+  margin: 0 15px;
+}
+
+@media (min-width: 980px) {
+  .header-container {
+    margin: 0 auto;
+    max-width: 980px;
+  }
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.menu {
+  display: flex;
+}
+
+.logo img {
+  width: 173px;
+}
+.perfil {
+  margin-left: 25px;
+}
+.perfil img {
+  width: 20px;
+}
+.search img {
+  width: 23px;
+}
+
+.text {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text2 {
+  color: #004a80;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 52px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text4 {
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding-top: 105px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+ 
+}
+
+.searchbar {
+  /*height: 454px;*/
+  padding-bottom: 145px;
+  background-color: #004a80;
+}
+@media (min-width: 980px) {
+  .search-container {
+    margin: 0 auto;
+    max-width: 980px;
+  }
+}
+
+.content {
+  height: 447px;
+  background-color: #e6e6e6;
+}
+
+@media (min-width: 980px) {
+  .content-container {
+    margin: 0 auto;
+    max-width: 980px;
+  }
+}
+
+.paragraph {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.title4 {
+  color: #003471;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  height: 68px;
+  width: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: left;
+}
+
+.secondparagraph {
+  padding-left: 15px;
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.terms {
+  display: flex;
+  padding-top: 25px;
+  /*padding-left: 126px;*/
+  padding-bottom: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 310px;
+}
+.gold {
+    color: #f6bc25;
+  }
+
+  .text1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62px;
+  }
+
+  .findbar{
+    display: flex;
+    justify-content: center;
+  }
+
+  .input {
+    width: 97%;
+    height: 70px;
+    margin-right: 20px;
+    padding-right: 20px;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 10px;
+    border-color: black;
+  }
+
+  .input::placeholder {
+    font-weight: 800;
+    color: #999999;
+    font-size: 1.2em;
+    font-style: Arial;
+    padding-left: 10px;
+  }
+  .emailError{
+    color:white; 
+    transform: scaleY(-1); 
+    background: #DC0015; 
+    border-radius: 3px 3px 0 0;
+    padding: 3px;
+  }
+  button {
+    width: 180px;
+    height: 70px;
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    border-radius: 6px;
+   font-weight: 800;
+    font-size: 24px;
+    color: #004A80;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  button:hover{
+    background-color: #F2DA56;
+  }
+
+  .formularioBuscador{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .validacionBuscador{
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    font-weight: 800;
+  }
+
+  /*******************************************
+  *
+  *           TARJETA DE USUARIO
+  *
+  ********************************************/
+ 
+
+  .card{
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    border-radius: 30px;
+    padding: 35px;
+    max-width:850px;
+    min-width:850px;
+    margin: 15px;
+  }
+
+  .fotoPerfil{
+    background: #004A80;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    min-width: 92px;
+    max-height: 96px;
+  }
+
+  .info-user {
+    width: 80%;
+  }
+
+  .tituloPerfil{
+    font-size: 32px;
+    color: #004A80;
+    font-weight: bold;
+  }
+
+  .tituloDescripcionUsuario{
+    font-weight:700;
+    font-size: 22px;
+    color: #004A80;
+  }
+
+  .listadoTelefono li{
+    list-style: none;
+  }
+
+  .listadoTelefono li a{
+   color: #004A80!important;
+  }
+
+  @media (max-width: 896px) {
+    .card{
+      min-width: 100%;
+    }
+  }
+  @media (max-width: 650px) {
+    .content-fotoPerfil{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .tituloPerfil{
+      font-size: 32px;
+      color: #004A80;
+      font-weight: bold;
+      text-align: center;
+    }
+    .info-user {
+      width:100%;
+      padding-left: 10px!important;
+      text-align: center;
+    }
+
+    .infoPhoneAdress{
+      flex-direction: column!important;
+    }
+    .infoPhoneAdress .address{
+      width: 100%;
+    }
+    .infoPhoneAdress .phone{
+      width: 100%;
+      padding: 0px!important;
+    }
+
+    .infoEmailRelatives{
+      flex-direction: column!important;
+    }
+    .infoEmailRelatives .email{
+      width: 100%;
+    }
+    .infoEmailRelatives .relatives{
+      width: 100%;
+      padding: 0px!important;
+    }
+  
+  
+  }
+  
